@@ -1,9 +1,12 @@
 body {
-  color: red;
   font-family: 'Nanum Gothic', sans-serif;
   font-variant: small-caps;
   overflow-y: scroll;
   overflow-x: scroll;
+}
+
+a {
+  color: red;
 }
 
 header {
@@ -48,7 +51,7 @@ footer {
 
 .navs {
   display: inline-block;
-  padding-left: 50px;
+  padding-left: 40px;
   padding-right: 50px;
   padding-top: 50px;
 }
@@ -87,9 +90,24 @@ width: 961px;
 }
 
 #button {
+  float: left;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
   padding-left: 25px;
 }
 
 #scrollbox {
 float: right;
+width: 455px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+button:hover {
+  background: red;
+  animation-timing-function: 350ms;
 }
