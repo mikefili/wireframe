@@ -1,9 +1,12 @@
 body {
-  color: red;
   font-family: 'Nanum Gothic', sans-serif;
   font-variant: small-caps;
   overflow-y: scroll;
   overflow-x: scroll;
+}
+
+a {
+  color: red;
 }
 
 header {
@@ -87,9 +90,19 @@ width: 961px;
 }
 
 #button {
+  float: left;
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 25px;
   padding-left: 25px;
 }
 
 #scrollbox {
 float: right;
+width: 455px;
+}
+
+h1 {
+  font-weight: bold;
 }
