@@ -22,7 +22,7 @@ footer {
   width: 100%;
   height: 80px;
   background-color: black;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
 }
 
@@ -76,9 +76,20 @@ footer {
 }
 
 #scroll {
-  display: inline-block;
-  height: 450px;
-  width: 300px;
+  float: right;
+  height: 360px;
+  width: 455px;
   overflow: scroll;
-  position: relative;
+}
+
+#bottom {
+width: 961px;
+}
+
+#button {
+  padding-left: 25px;
+}
+
+#scrollbox {
+float: right;
 }
