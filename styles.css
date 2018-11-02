@@ -1,5 +1,9 @@
 body {
   color: red;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-variant: small-caps;
+  overflow-y: scroll;
+  overflow-x: scroll;
 }
 
 header {
@@ -10,7 +14,6 @@ header {
 
 main {
   background-color: lightgray;
-  position: fixed;
   height: 100%;
   width: 100%;
 }
@@ -19,49 +22,74 @@ footer {
   width: 100%;
   height: 80px;
   background-color: black;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
 }
 
 #nav-image {
   padding-top: 20px;
-  padding-left: 50px;
+  padding-left: 19%;
   padding-right: 50px;
   position: absolute;
 }
 
 #nav1 {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 400px;
+  padding-left: 41%;
   padding-right: 50px;
   padding-top: 50px;
 }
 
-#nav2 {
+#section {
+  margin: 0 auto;
+  width: 961px;
+  position: relative;
+  }
+
+.navs {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 50px;
 }
 
-#nav3 {
+#first {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
+  padding-bottom: 25px'
 }
 
-#nav4 {
+.second {
   display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 50px;
+  padding-left: 26px;
+  padding-bottom: 25px;
+}
+
+#large {
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#last {
+  display: inline-block;
+}
+
+#scroll {
+  float: right;
+  height: 360px;
+  width: 455px;
+  overflow: scroll;
+}
+
+#bottom {
+width: 961px;
+}
+
+#button {
+  padding-left: 25px;
+}
+
+#scrollbox {
+float: right;
 }
