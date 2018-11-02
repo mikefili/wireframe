@@ -28,21 +28,21 @@ footer {
 
 #nav-image {
   padding-top: 20px;
-  padding-left: 18%;
+  padding-left: 19%;
   padding-right: 50px;
   position: absolute;
 }
 
 #nav1 {
   display: inline-block;
-  padding-left: 40%;
+  padding-left: 41%;
   padding-right: 50px;
   padding-top: 50px;
 }
 
 #section {
   margin: 0 auto;
-  width: 80em;
+  width: 961px;
   position: relative;
   }
 
@@ -55,15 +55,30 @@ footer {
 
 #first {
   display: inline-block;
+  padding-bottom: 25px'
 }
 
 .second {
   display: inline-block;
-  padding-right: 30px;
+  padding-left: 26px;
+  padding-bottom: 25px;
 }
 
 #large {
   display: inline-block;
   margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
+#last {
+  display: inline-block;
+}
+
+#scroll {
+  display: inline-block;
+  height: 450px;
+  width: 300px;
+  overflow: scroll;
+  position: relative;
+}
