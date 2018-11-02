@@ -1,0 +1,67 @@
+body {
+  color: red;
+}
+
+header {
+  width: 100%;
+  height: 120px;
+  background-color: black;
+}
+
+main {
+  background-color: lightgray;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+}
+
+#nav-image {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute;
+}
+
+#nav1 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 400px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+#nav2 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+#nav3 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+
+#nav4 {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
